@@ -284,20 +284,51 @@
     </aside>
 
     <!-- ULASAN -->
-    <section class="reviews" aria-label="Ulasan Pembeli">
-      <h2>Ulasan Pembeli</h2>
-      <p itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-        Rata-rata <strong><span itemprop="ratingValue">4.8</span>/5</strong> dari <span itemprop="reviewCount">128</span> ulasan.
-      </p>
-      <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
-        <p><strong itemprop="author">Andi</strong> ⭐⭐⭐⭐⭐</p>
-        <p itemprop="reviewBody">Ini baru namanya situs slot bonus, Recomended !</p>
-      </div>
-      <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
-        <p><strong itemprop="author">Rina</strong> ⭐⭐⭐⭐☆</p>
-        <p itemprop="reviewBody">Mantap gak ada TOnya, seneng banget !!!</p>
-      </div>
-    </section>
+<section class="reviews" aria-label="Ulasan Pembeli" itemscope itemtype="https://schema.org/Product">
+  <meta itemprop="name" content="MGS88 Bonus Ojol" />
+
+  <h2>Ulasan Pembeli</h2>
+
+  <!-- Aggregate Rating -->
+  <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+    <p>
+      Rata-rata <strong><span itemprop="ratingValue">4.8</span>/5</strong>
+      dari <span itemprop="reviewCount">128</span> ulasan.
+    </p>
+    <meta itemprop="bestRating" content="5" />
+    <meta itemprop="worstRating" content="1" />
+  </div>
+
+  <!-- Review 1 -->
+  <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+    <p>
+      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <strong itemprop="name">Andi</strong>
+      </span>
+      ⭐⭐⭐⭐⭐
+    </p>
+    <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5" />
+      <meta itemprop="bestRating" content="5" />
+    </div>
+    <p itemprop="reviewBody">Ini baru namanya situs slot bonus, recommended!</p>
+  </div>
+
+  <!-- Review 2 -->
+  <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+    <p>
+      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <strong itemprop="name">Rina</strong>
+      </span>
+      ⭐⭐⭐⭐☆
+    </p>
+    <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+      <meta itemprop="ratingValue" content="4" />
+      <meta itemprop="bestRating" content="5" />
+    </div>
+    <p itemprop="reviewBody">Mantap, nggak ada TO. Seneng banget!</p>
+  </div>
+</section>
 
     <!-- FAQ -->
     <aside class="faq" aria-label="FAQ Produk">
